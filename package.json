@@ -32,22 +32,22 @@
   "builders": "builders.json",
   "homepage": "https://github.com/testcafe-community/nx-builder#readme",
   "devDependencies": {
-    "@angular-devkit/architect": "0.803.5",
-    "@angular-devkit/build-angular": "0.803.5",
-    "@angular-devkit/core": "8.3.5",
-    "@testing-library/testcafe": "^4.1.0",
-    "@types/node": "^12.0.8",
-    "semantic-release": "^17.0.7",
-    "testcafe": "1.8.4",
-    "testcafe-reporter-html": "^1.4.4",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.1"
+    "@angular-devkit/architect": "0.1100.2",
+    "@angular-devkit/build-angular": "0.1100.2",
+    "@angular-devkit/core": "11.0.2",
+    "@testing-library/testcafe": "^4.3.1",
+    "@types/node": "^14.14.10",
+    "semantic-release": "^17.3.0",
+    "testcafe": "1.9.4",
+    "testcafe-reporter-html": "^1.4.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
   },
   "peerDependencies": {
-    "@angular/core": ">=8.0.0",
-    "testcafe": ">=1.5.0"
+    "@angular/core": ">=11.0.0",
+    "testcafe": ">=1.9.0"
   },
   "dependencies": {
-    "lodash": "4.17.15"
+    "lodash": "4.17.20"
   }
 }
